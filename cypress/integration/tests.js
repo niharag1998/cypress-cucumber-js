@@ -1,18 +1,12 @@
+/// <reference types="cypress" />
+
 describe("Login Functionality", () => {
     before(() => {
-        cy.wrap([
-            {
-                name: "Nihar"
-            },
-            {
-                name: "Patel"
-            }
-        ]).as("websiteName")
+        cy.log(Cypress.config().baseUrl)
+        
     })
     
     it('first test', () => {
-        cy.get('@websiteName').each((wags) => {
-            cy.log(wags)
-        })
+        cy.log(Cypress.env("NODE_ENV"))
     })
 })

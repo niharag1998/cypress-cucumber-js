@@ -2,6 +2,7 @@
     "watchForFileChanges": false,
     "defaultCommandTimeout": 300000,
     "testFiles": "**/*.*",
+    "baseUrl":"https://dummyurl.com",
     "env": {
         "NODE_ENV": "development"
     }

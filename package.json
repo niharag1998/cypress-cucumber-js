@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "test-development": "cypress open  --config-file ./config/development-config.json",
+    "test-production": "cypress open  --config-file ./config/production-config.json"
   },
   "keywords": [],
   "author": "",
