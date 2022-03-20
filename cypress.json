@@ -1,7 +1,7 @@
 {
     "watchForFileChanges": false,
     "defaultCommandTimeout": 300000,
-    "testFiles": "**/*.*",
+    "testFiles": "**/*.{feature,features}",
     "env": {
         "NODE_ENV": "development"
     }
